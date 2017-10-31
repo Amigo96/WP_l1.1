@@ -1,4 +1,11 @@
 {
+  "styles": [
+    "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+    "styles.css"
+  ],
+  "scripts": [
+    "../node_modules/bootstrap/dist/js/bootstrap.js"
+  ],
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
     "name": "lab1-students"
@@ -20,6 +27,7 @@
       "prefix": "app",
       "styles": [
         "styles.css"
+
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
